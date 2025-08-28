@@ -1,0 +1,45 @@
+
+.remark-slide-content {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(0, 0, 220);
+  text-align: left;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.remark-slide-content h1,
+.remark-slide-content h2,
+.remark-slide-content h3 {
+  color: rgb(0, 0, 220);
+  text-align: left;
+  font-family: "PT Sans", sans-serif;
+}
+
+
+.title-slide::before {
+  content: "";
+  background-image: url("obrazky/logo.png");
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: top right;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.remark-slide-content::before {
+  content: "";
+  background-image: url("obrazky/logo.png");
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: top right;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 100px;
+  height: 100px;
+}
